@@ -54,7 +54,7 @@ const signIn = () => {
         />
          <OAuth></OAuth>
         <Link
-            href="Sign-up"
+            href="Sign-in"
             style={{ marginTop: 0, textAlign: 'center', color: '#007bff' }}
         >
           <Text style={{marginBottom:10, color:"#969494ff"}}>Dont have an account? </Text>

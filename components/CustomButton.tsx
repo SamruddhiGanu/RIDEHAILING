@@ -8,8 +8,8 @@ type ButtonProps = {
   textVariant?: 'default' | 'light' | 'dark' | 'gray';
   IconRight?: React.ComponentType<any>;
   IconLeft?: React.ComponentType<any>;
-  buttonStyle?: ViewStyle;   // 👈 external container style
-  textStyle?: TextStyle;     // 👈 external text style
+  buttonStyle?: ViewStyle;   
+  textStyle?: TextStyle;     
 };
 
 const getBgVariantStyle = (variant: ButtonProps['bgVariant']) => {
